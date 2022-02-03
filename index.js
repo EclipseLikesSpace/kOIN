@@ -2,11 +2,11 @@
 const usd = 40000 / 7
 
 function koinToUSD(x){
-    return Math.round((usd * x) * 100) / 100
+    return (Math.round((usd * x) * 100) / 100).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }
 
 function usdToKoin(x){
-    return Math.round((7 / x * 40000) * 100) / 100
+    return (Math.round((7 / x * 40000) * 100) / 100).toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 }
 
 $(document).ready(function(){
