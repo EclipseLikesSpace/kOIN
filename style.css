@@ -2,6 +2,11 @@
 
 * {
     font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+html {
+    background-color: rgb(50, 56, 56);
 }
 
 .center {
@@ -12,7 +17,9 @@
     height: 8rem;
     width: 28rem;
     border-radius: 1rem;
-    border-color: grey;
+    border-color: rgb(255, 255, 255);
+    /* outline-style: solid; */
+    outline-color: rgb(255, 255, 255);
     font-size: 3.5rem;
 }
 
