@@ -5,5 +5,4 @@ Convert KSP funds to USD
 MIT
 
 ## Features
-- Dark mode/Light mode switching
 - Convert KSP funds to USD and vice versa
