@@ -6,7 +6,7 @@ function koinToUSD(x){
 }
 
 function usdToKoin(x){
-    return Math.round(((40000 * 7) / x) * 100) / 100
+    return Math.round((7 / x * 40000) * 100) / 100
 }
 
 $(document).ready(function(){
